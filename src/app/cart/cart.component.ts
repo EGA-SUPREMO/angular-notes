@@ -25,7 +25,7 @@ export class CartComponent implements OnInit {
     this.items = this.cartService.getItems();
   }
 
-  onSumbit(costumerData) {
+  onSubmit(costumerData) {
     //Process the data
     console.warn('Your order has been sumbitted', costumerData);
 
